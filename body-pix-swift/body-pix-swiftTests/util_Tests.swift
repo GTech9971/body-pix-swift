@@ -27,6 +27,20 @@ final class util_Tests: XCTestCase {
         XCTAssertEqual(result.0, 225)
         XCTAssertEqual(result.1, 337)
     }
+    
+    func testPadTo() throws{
+        let input:InputSize = (453, 690);
+        let resolution:BodyPixInternalResolution = .medium;
+        
+        let internalResolution:(Int, Int) =  ToInputResolutionHeightAndWidth(internalResolution: resolution, outputStride: .value16, size: input);
+        
+        let result:Padding = PadTo(size: input, target: internalResolution)
+        
+        XCTAssertEqual(result.Top, 4)
+        XCTAssertEqual(result.Left, 0)
+        XCTAssertEqual(result.Right, 0)
+        XCTAssertEqual(result.Botton, 4)
+    }
 
 
 }

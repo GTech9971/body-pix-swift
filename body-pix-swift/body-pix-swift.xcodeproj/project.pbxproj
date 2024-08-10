@@ -15,6 +15,7 @@
 		5E989F212C6795560048E7B8 /* BodyPixOutputStride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E989F202C6795560048E7B8 /* BodyPixOutputStride.swift */; };
 		5E989F232C6795E50048E7B8 /* BodyPixInternalResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E989F222C6795E50048E7B8 /* BodyPixInternalResolution.swift */; };
 		5E989F252C679B1C0048E7B8 /* util_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E989F242C679B1C0048E7B8 /* util_Tests.swift */; };
+		5E989F272C679E7C0048E7B8 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E989F262C679E7C0048E7B8 /* Padding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		5E989F202C6795560048E7B8 /* BodyPixOutputStride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPixOutputStride.swift; sourceTree = "<group>"; };
 		5E989F222C6795E50048E7B8 /* BodyPixInternalResolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPixInternalResolution.swift; sourceTree = "<group>"; };
 		5E989F242C679B1C0048E7B8 /* util_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util_Tests.swift; sourceTree = "<group>"; };
+		5E989F262C679E7C0048E7B8 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				5E989F1E2C6794780048E7B8 /* Util.swift */,
 				5E989F202C6795560048E7B8 /* BodyPixOutputStride.swift */,
 				5E989F222C6795E50048E7B8 /* BodyPixInternalResolution.swift */,
+				5E989F262C679E7C0048E7B8 /* Padding.swift */,
 			);
 			path = "body-pix-swift";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E989F092C6793010048E7B8 /* body_pix_swift.docc in Sources */,
+				5E989F272C679E7C0048E7B8 /* Padding.swift in Sources */,
 				5E989F212C6795560048E7B8 /* BodyPixOutputStride.swift in Sources */,
 				5E989F232C6795E50048E7B8 /* BodyPixInternalResolution.swift in Sources */,
 				5E989F1F2C6794780048E7B8 /* Util.swift in Sources */,
